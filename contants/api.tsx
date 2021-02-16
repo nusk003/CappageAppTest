@@ -2,6 +2,8 @@ import { AntDesign, MaterialIcons, FontAwesome } from "@expo/vector-icons";
 import React from 'react'
 import { widthPercentageToDP } from "react-native-responsive-screen";
 
+//Dummy APIs
+
 export const menuList: {title: string ,icon : JSX.Element,active : boolean}[] = [
     {
         title : "Calender",
